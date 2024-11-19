@@ -1,0 +1,11 @@
+{
+  "layout": {
+    "appbar": {
+      "projects": "Projetos",
+      "about_me": "Sobre mim"
+    },
+    "footer": {
+      "all_rights_reserved": "Criado por Paulo Bacelar"
+    }
+  }
+}
