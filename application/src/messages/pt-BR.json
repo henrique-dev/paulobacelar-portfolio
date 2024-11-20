@@ -1,4 +1,63 @@
 {
+  "pages": {
+    "projects": {
+      "project_our_financial_page": {
+        "title": "Nosso Financeiro",
+        "description": "O nosso financeiro permite controlar as entradas e saídas financeiras, sendo que as saídas podem ser simples ou realizadas por meio de cartão de crédito. Esses itens são listados dentro da fatura atual. Além disso, é possível definir metas financeiras com prazos específicos, que podem variar desde a compra de um item até a aposentadoria. A ferramenta também possibilita a movimentação de recursos entre contas, no caso de transferências entre contas próprias. O sistema pode ser gerido por uma única pessoa ou por múltiplos usuários, como casais que compartilham suas finanças. Atualmente, é possível registrar movimentações nas seguintes moedas: BRL, CAD e USD, permitindo o controle tanto das contas pessoais quanto das contas de investimentos em um único lugar."
+      }
+    },
+    "project_our_financial": {
+      "resume_section": {
+        "description": "O sistema oferece uma solução robusta e intuitiva para o gerenciamento de finanças, abrangendo desde o controle básico até funcionalidades avançadas. A seguir, estão as principais características:",
+        "movement_management": "<strong>Gestão de Entradas e Saídas:</strong> Permite o registro e acompanhamento de receitas e despesas, com as saídas financeiras sendo categorizadas como simples ou realizadas por cartão de crédito, cujas despesas são automaticamente organizadas na fatura atual.",
+        "goals_definition": "<strong>Definição de Metas Financeiras:</strong> É possível criar metas financeiras com prazos personalizados, que podem abranger desde objetivos pontuais, como a compra de um item, até planos de longo prazo, como a aposentadoria.",
+        "movement_between_accounts": "<strong>Movimentação Entre Contas:</strong> Recursos podem ser transferidos entre contas próprias de forma prática e segura.",
+        "shared_management": "<strong>Gestão Individual ou Compartilhada:</strong> O sistema suporta tanto o gerenciamento individual quanto por múltiplos usuários, sendo ideal para casais ou grupos que compartilham o controle financeiro.",
+        "multiple_currencies": "<strong>Suporte a Múltiplas Moedas:</strong> Registro e controle de transações disponíveis em BRL (Real), CAD (Dólar Canadense) e USD (Dólar Americano).",
+        "personal_integration": "<strong>Integração de Contas Pessoais e de Investimentos:</strong> Oferece uma visão consolidada de todas as contas, sejam pessoais ou de investimentos."
+      },
+      "tools_section": {
+        "general_description": "O sistema foi projetado e construído com uma arquitetura moderna e modular, dividida entre frontend e backend como serviços independentes. Essa separação possibilita maior flexibilidade no desenvolvimento, escalabilidade e manutenção da aplicação. A escolha de tecnologias robustas e populares garante alta performance, segurança e uma experiência de usuário consistente.",
+        "frontend": "Frontend: Interface de Usuário (UI)",
+        "frontend_description": "O frontend foi desenvolvido utilizando Next.js e Tailwind CSS, oferecendo uma interface responsiva, eficiente e estilizada.",
+        "nextjs": "Next.js",
+        "nextjs_text1": "<strong>Servidor e Cliente:</strong> Combina renderização estática e dinâmica para otimizar a performance, com suporte integrado para SEO, o que é essencial em aplicações modernas.",
+        "nextjs_text2": "<strong>Rotas Dinâmicas:</strong> Utilizadas para lidar com áreas da aplicação que demandam alta personalização, como páginas de relatórios ou gestão de contas.",
+        "nextjs_text3": "<strong>API Routes:</strong> Empregadas para interações rápidas com o backend e simplificação de integrações.",
+        "tailwindcss": "Tailwind CSS",
+        "tailwindcss_text1": "<strong>Design Consistente:</strong> Adota uma abordagem baseada em utilitários para estilização, garantindo consistência visual e facilidade de manutenção.",
+        "tailwindcss_text2": "<strong>Customização Fácil:</strong> Permite criar temas e componentes reutilizáveis, que seguem o padrão visual do sistema.",
+        "backend": "Backend: Lógica de Negócio",
+        "backend_description": "O backend foi construído com Ruby on Rails, uma estrutura conhecida por sua produtividade e suporte para desenvolvimento ágil.",
+        "ruby_on_rails": "Ruby on Rails",
+        "ruby_on_rails_text1": "<strong>Estrutura Modular:</strong> O backend é organizado em módulos que refletem as entidades financeiras do sistema, como usuários, transações, contas e relatórios.",
+        "ruby_on_rails_text2": "<strong>APIs RESTful:</strong> Fornecem comunicação clara e padronizada com o frontend.",
+        "postgres": "Banco de Dados (PostgreSQL):",
+        "postgres_text1": "<strong>Unificação de Dados:</strong> Toda a aplicação utiliza uma única base de dados, centralizando as informações e facilitando a gestão e a consistência dos dados.",
+        "postgres_text2": "<strong>Otimizações:</strong> Índices e consultas otimizadas para lidar com grandes volumes de transações financeiras.",
+        "backend_frontend": "Integração entre Frontend e Backend",
+        "backend_frontend_description": "Embora sejam serviços distintos, o frontend e o backend se comunicam de maneira eficiente:",
+        "backend_frontend_text1": "<strong>REST APIs:</strong> O backend expõe endpoints que o frontend consome para buscar ou enviar dados.",
+        "backend_frontend_text2": "<strong>Autenticação:</strong> Implementada via tokens JWT, garantindo segurança nas requisições entre os serviços.",
+        "backend_frontend_text3": "<strong>Gerenciamento de Estado:</strong> O frontend armazena estados temporários das interações do usuário, enquanto o backend é responsável pela persistência.",
+        "design_system": "Benefícios do Design System",
+        "design_system_text1": "<strong>Modularidade:</strong> Separar frontend e backend permite que equipes distintas trabalhem em paralelo, acelerando o desenvolvimento.",
+        "design_system_text2": "<strong>Escalabilidade:</strong> Serviços independentes podem ser otimizados ou escalados de maneira específica, reduzindo custos e maximizando a eficiência.",
+        "design_system_text3": "<strong>Manutenção Facilitada:</strong> Cada serviço possui sua própria base de código, simplificando a adição de novas funcionalidades ou correções.",
+        "design_system_text4": "<strong>Experiência de Usuário Coesa:</strong> O uso de Tailwind CSS e componentes reutilizáveis no frontend mantém a consistência visual e melhora a interação do usuário."
+      }
+    }
+  },
+  "projects": {
+    "our_financial": {
+      "title": "Nosso Financeiro",
+      "description": "Gerencie suas finanças pessoais e compartilhadas com controle de contas, metas financeiras e múltiplas moedas, tudo em um só lugar"
+    }
+  },
+  "actions": {
+    "access_demo": "Acessar demonstração"
+  },
+  "general": {},
   "layout": {
     "appbar": {
       "projects": "Projetos",

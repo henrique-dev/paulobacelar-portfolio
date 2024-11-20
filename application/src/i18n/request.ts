@@ -6,7 +6,7 @@ const locales = ['pt-BR', 'en', 'fr', 'es', 'jp'];
 export default getRequestConfig(async () => {
   // Provide a static locale, fetch a user setting,
   // read from `cookies()`, `headers()`, etc.
-  let locale = 'pt-BR';
+  let locale = 'en';
 
   try {
     const cookiesStore = cookies();

@@ -8,9 +8,6 @@ import { SelectInput } from '../ui/forms';
 const languageOptions = [
   { id: 'pt-BR', description: 'PT', name: 'BR' },
   { id: 'en', description: 'EN', name: 'US' },
-  { id: 'fr', description: 'FR', name: 'FR' },
-  { id: 'es', description: 'ES', name: 'ES' },
-  { id: 'jp', description: 'JP', name: 'JP' },
 ];
 
 type LanguageSelectProps = {};
