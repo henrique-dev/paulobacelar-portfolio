@@ -46,6 +46,11 @@
         "design_system_text3": "<strong>Ease of Maintenance:</strong> Each service has its own codebase, simplifying the addition of new features or fixes.",
         "design_system_text4": "<strong>Coherent User Experience:</strong> Using Tailwind CSS and reusable components in the frontend maintains visual consistency and improves user interaction."
       }
+    },
+    "about_me": {
+      "about_me_page": {
+        "description": "Highly skilled software developer with over 6 years of experience in the field. Experienced in working with small to medium-sized teams, contributing to the implementation of new solutions that ensure high scalability and maintenance of developed applications. Focused on rapid and continuous delivery, achieving excellent results by coaching less experienced developers to deliver high-quality code."
+      }
     }
   },
   "projects": {
@@ -57,7 +62,9 @@
   "actions": {
     "access_demo": "Access Demo"
   },
-  "general": {},
+  "general": {
+    "years": "{n} years"
+  },
   "layout": {
     "appbar": {
       "projects": "Projects",

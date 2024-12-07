@@ -46,6 +46,11 @@
         "design_system_text3": "<strong>Manutenção Facilitada:</strong> Cada serviço possui sua própria base de código, simplificando a adição de novas funcionalidades ou correções.",
         "design_system_text4": "<strong>Experiência de Usuário Coesa:</strong> O uso de Tailwind CSS e componentes reutilizáveis no frontend mantém a consistência visual e melhora a interação do usuário."
       }
+    },
+    "about_me": {
+      "about_me_page": {
+        "description": "Apaixonado por tecnologia, computadores e programação. Uma de minhas melhores habilidades é minha rápida habituação com qualquer ambiente de trabalho e linguagem, pois pra mim programar é criar, aceitar desafios e resolvê-los. Atuando há cerca de 6 anos com desenvolvimento de sistemas, envolvendo aplicações web, desktop e também jogos.  Tenho facilidades para aprender novas tecnologias, e também costumo sempre me manter atualizado sobre todo o contexto profissional ao meu redor."
+      }
     }
   },
   "projects": {
@@ -57,7 +62,9 @@
   "actions": {
     "access_demo": "Acessar demonstração"
   },
-  "general": {},
+  "general": {
+    "years": "{n} anos"
+  },
   "layout": {
     "appbar": {
       "projects": "Projetos",
