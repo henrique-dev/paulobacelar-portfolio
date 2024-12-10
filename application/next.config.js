@@ -2,16 +2,16 @@ const createNextIntlPlugin = require('next-intl/plugin');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  redirects: async () => {
-    return [
-      {
-        source: '/',
-        destination: '/projects',
-        permanent: false,
-      },
-    ];
-  },
-  // reactStrictMode: false
+  // redirects: async () => {
+  //   return [
+  //     {
+  //       source: '/',
+  //       destination: '/',
+  //       permanent: false,
+  //     },
+  //   ];
+  // },
+  reactStrictMode: false
 };
 
 const withNextIntl = createNextIntlPlugin();

@@ -4,11 +4,11 @@ import '@/styles/application.scss';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages, getTimeZone } from 'next-intl/server';
-import { Inter } from 'next/font/google';
+import { Roboto_Mono } from 'next/font/google';
 import { twJoin } from 'tailwind-merge';
 import { CustomDocument } from './CustomDocument';
 
-const inter = Inter({ subsets: ['latin'] });
+const roboto = Roboto_Mono({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Portfolio',
@@ -26,7 +26,7 @@ const RootLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
     <ThemeProvider>
       <CustomDocument locale={locale}>
-        <body className={twJoin(inter.className, 'h-full bg-gray-50 dark:bg-gray-950')}>
+        <body className={twJoin(roboto.className, 'h-full bg-gray-900')}>
           <NextIntlClientProvider timeZone={timezone} locale={locale} messages={messages}>
             <Layout>{children}</Layout>
           </NextIntlClientProvider>

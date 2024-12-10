@@ -1,74 +1,75 @@
 {
   "pages": {
-    "projects": {
-      "project_our_financial_page": {
-        "title": "Our Financial",
-        "description": "Our financial tool allows managing income and expenses, where expenses can be either simple or made via credit card. These items are listed within the current statement. Additionally, it is possible to set financial goals with specific deadlines, ranging from purchasing an item to retirement planning. The tool also enables transferring resources between accounts, in the case of transfers between personal accounts. The system can be managed by a single person or multiple users, such as couples sharing their finances. Currently, it is possible to record transactions in the following currencies: BRL, CAD, and USD, allowing the control of both personal and investment accounts in one place."
-      }
-    },
-    "project_our_financial": {
-      "resume_section": {
-        "description": "The system offers a robust and intuitive solution for financial management, ranging from basic control to advanced features. Below are the main characteristics:",
-        "movement_management": "<strong>Income and Expense Management:</strong> Allows recording and tracking of income and expenses, with financial expenses categorized as simple or made via credit card, with expenses automatically organized in the current statement.",
-        "goals_definition": "<strong>Financial Goal Setting:</strong> Enables creating financial goals with custom deadlines, covering anything from specific objectives like buying an item to long-term plans like retirement.",
-        "movement_between_accounts": "<strong>Transfers Between Accounts:</strong> Funds can be transferred between personal accounts in a practical and secure way.",
-        "shared_management": "<strong>Individual or Shared Management:</strong> The system supports both individual management and multi-user management, ideal for couples or groups sharing financial control.",
-        "multiple_currencies": "<strong>Multi-Currency Support:</strong> Register and manage transactions in BRL (Brazilian Real), CAD (Canadian Dollar), and USD (US Dollar).",
-        "personal_integration": "<strong>Integration of Personal and Investment Accounts:</strong> Provides a consolidated view of all accounts, whether personal or investment accounts."
+    "main": {
+      "projects_window": {
+        "title": "Project Viewer",
+        "all": "All"
       },
-      "tools_section": {
-        "general_description": "The system was designed and built with a modern and modular architecture, divided between frontend and backend as independent services. This separation enables greater development flexibility, scalability, and application maintenance. The choice of robust and popular technologies ensures high performance, security, and a consistent user experience.",
-        "frontend": "Frontend: User Interface (UI)",
-        "frontend_description": "The frontend was developed using Next.js and Tailwind CSS, offering a responsive, efficient, and stylish interface.",
-        "nextjs": "Next.js",
-        "nextjs_text1": "<strong>Server and Client:</strong> Combines static and dynamic rendering to optimize performance, with integrated SEO support, which is essential for modern applications.",
-        "nextjs_text2": "<strong>Dynamic Routes:</strong> Used to handle application areas that require high customization, such as report pages or account management.",
-        "nextjs_text3": "<strong>API Routes:</strong> Employed for fast interactions with the backend and simplified integrations.",
-        "tailwindcss": "Tailwind CSS",
-        "tailwindcss_text1": "<strong>Consistent Design:</strong> Adopts a utility-based approach for styling, ensuring visual consistency and ease of maintenance.",
-        "tailwindcss_text2": "<strong>Easy Customization:</strong> Allows creating themes and reusable components that follow the system's visual standards.",
-        "backend": "Backend: Business Logic",
-        "backend_description": "The backend was built with Ruby on Rails, a framework known for its productivity and support for agile development.",
-        "ruby_on_rails": "Ruby on Rails",
-        "ruby_on_rails_text1": "<strong>Modular Structure:</strong> The backend is organized into modules reflecting the system's financial entities, such as users, transactions, accounts, and reports.",
-        "ruby_on_rails_text2": "<strong>RESTful APIs:</strong> Provide clear and standardized communication with the frontend.",
-        "postgres": "Database (PostgreSQL):",
-        "postgres_text1": "<strong>Data Unification:</strong> The entire application uses a single database, centralizing information and facilitating data management and consistency.",
-        "postgres_text2": "<strong>Optimizations:</strong> Indexed and optimized queries to handle large volumes of financial transactions.",
-        "backend_frontend": "Integration between Frontend and Backend",
-        "backend_frontend_description": "Although they are distinct services, the frontend and backend communicate efficiently:",
-        "backend_frontend_text1": "<strong>REST APIs:</strong> The backend exposes endpoints that the frontend consumes to retrieve or send data.",
-        "backend_frontend_text2": "<strong>Authentication:</strong> Implemented via JWT tokens, ensuring secure requests between services.",
-        "backend_frontend_text3": "<strong>State Management:</strong> The frontend stores temporary user interaction states, while the backend handles persistence.",
-        "design_system": "Design System Benefits",
-        "design_system_text1": "<strong>Modularity:</strong> Separating frontend and backend allows distinct teams to work in parallel, accelerating development.",
-        "design_system_text2": "<strong>Scalability:</strong> Independent services can be optimized or scaled specifically, reducing costs and maximizing efficiency.",
-        "design_system_text3": "<strong>Ease of Maintenance:</strong> Each service has its own codebase, simplifying the addition of new features or fixes.",
-        "design_system_text4": "<strong>Coherent User Experience:</strong> Using Tailwind CSS and reusable components in the frontend maintains visual consistency and improves user interaction."
-      }
-    },
-    "about_me": {
-      "about_me_page": {
-        "description": "Highly skilled software developer with over 6 years of experience in the field. Experienced in working with small to medium-sized teams, contributing to the implementation of new solutions that ensure high scalability and maintenance of developed applications. Focused on rapid and continuous delivery, achieving excellent results by coaching less experienced developers to deliver high-quality code."
+      "main_terminal": {
+        "all_rights_reserved": "Paulo Bacelar. All rights reserved",
+        "host_machine": "visitor@portfolio",
+        "see_projects": "See projects",
+        "see_about": "See about"
+      },
+      "use_commands": {
+        "commands": {
+          "hello_visitor": "> Hello visitor",
+          "welcome": "> Welcome to my portfolio",
+          "what_do_you_want_to_do": "> What do you want to do? (Use the mouse to select)",
+
+          "projects_message_1": "> Searching for existing projects...",
+          "projects_message_2": "> Checking for updates...",
+          "projects_message_3": "> Downloading additional projects...",
+          "projects_message_4": "> Creating a secure connection...",
+          "projects_message_5": "> Initializing project explorer...",
+
+          "see_about_message_1": "> Checking data source...",
+          "see_about_message_2": "> Validating remaining data...",
+          "see_about_message_3": "> Looking for updates...",
+          "see_about_message_4": "> Initializing settings..."
+        }
+      },
+      "our_financial_project": {
+        "description": "The system offers a robust and intuitive solution for financial management, covering everything from basic control to advanced features. Below are the main characteristics:",
+        "movement_management": "<strong>Income and Expense Management:</strong> Enables the recording and tracking of revenues and expenses, with financial expenses categorized as either simple or made via credit card, with expenses automatically organized in the current bill.",
+        "goals_definition": "<strong>Financial Goal Setting:</strong> Allows for the creation of financial goals with customized deadlines, ranging from specific objectives, such as buying an item, to long-term plans like retirement.",
+        "movement_between_accounts": "<strong>Account-to-Account Transfers:</strong> Funds can be transferred between personal accounts easily and securely.",
+        "shared_management": "<strong>Individual or Shared Management:</strong> The system supports both individual and multi-user management, making it ideal for couples or groups sharing financial control.",
+        "multiple_currencies": "<strong>Support for Multiple Currencies:</strong> Transaction registration and control available in BRL (Brazilian Real), CAD (Canadian Dollar), and USD (US Dollar).",
+        "personal_integration": "<strong>Integration of Personal and Investment Accounts:</strong> Provides a consolidated view of all accounts, whether personal or investment."
+      },
+      "about_me": {
+        "title": "Settings",
+        "description": "About",
+        "skills": "Skills",
+        "contact": "Contact",
+        "name": "Name",
+        "position": "Software Developer",
+        "about_text": "Highly skilled with over 6 years of experience in the field. Experienced in working with small to medium-sized teams, contributing to the implementation of new solutions ensuring high scalability and maintainability of developed applications. Focused on fast and continuous delivery, achieving excellent results by training less experienced developers to deliver high-quality code.",
+        "languages": "Languages",
+        "databases": "Databases",
+        "messaging": "Queues and messaging systems"
       }
     }
   },
   "projects": {
     "our_financial": {
       "title": "Our Financial",
-      "description": "Manage your personal and shared finances with account control, financial goals, and multiple currencies, all in one place"
+      "description": "Manage your personal and shared finances with account control, financial goals, and multiple currencies all in one place"
     }
   },
   "actions": {
-    "access_demo": "Access Demo"
+    "access_demo": "Access demo"
   },
   "general": {
-    "years": "{n} years"
+    "years": "{n} years",
+    "portuguese": "Portuguese",
+    "english": "English"
   },
   "layout": {
     "appbar": {
       "projects": "Projects",
-      "about_me": "About Me"
+      "about_me": "About me"
     },
     "footer": {
       "all_rights_reserved": "Created by Paulo Bacelar"

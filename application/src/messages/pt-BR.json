@@ -1,13 +1,35 @@
 {
   "pages": {
-    "projects": {
-      "project_our_financial_page": {
-        "title": "Nosso Financeiro",
-        "description": "O nosso financeiro permite controlar as entradas e saídas financeiras, sendo que as saídas podem ser simples ou realizadas por meio de cartão de crédito. Esses itens são listados dentro da fatura atual. Além disso, é possível definir metas financeiras com prazos específicos, que podem variar desde a compra de um item até a aposentadoria. A ferramenta também possibilita a movimentação de recursos entre contas, no caso de transferências entre contas próprias. O sistema pode ser gerido por uma única pessoa ou por múltiplos usuários, como casais que compartilham suas finanças. Atualmente, é possível registrar movimentações nas seguintes moedas: BRL, CAD e USD, permitindo o controle tanto das contas pessoais quanto das contas de investimentos em um único lugar."
-      }
-    },
-    "project_our_financial": {
-      "resume_section": {
+    "main": {
+      "projects_window": {
+        "title": "Visualizador de projetos",
+        "all": "Todos"
+      },
+      "main_terminal": {
+        "all_rights_reserved": "Paulo Bacelar. Todos os direitos reservados",
+        "host_machine": "visitante@portolio",
+        "see_projects": "Ver projetos",
+        "see_about": "Ver sobre"
+      },
+      "use_commands": {
+        "commands": {
+          "hello_visitor": "> Olá visitante",
+          "welcome": "> Bem vindo ao meu portfolio",
+          "what_do_you_want_to_do": "> O que você deseja fazer? (Utilize o mouse para selecionar)",
+
+          "projects_message_1": "> Buscando projetos existentes...",
+          "projects_message_2": "> Verificando atualizações...",
+          "projects_message_3": "> Baixando projetos adicionais...",
+          "projects_message_4": "> Criando uma conexão segura...",
+          "projects_message_5": "> Iniciando explorador de projetos...",
+
+          "see_about_message_1": "> Verificando fonte dos dados...",
+          "see_about_message_2": "> Validando dados restantes...",
+          "see_about_message_3": "> Buscando novidades...",
+          "see_about_message_4": "> Iniciando configurações..."
+        }
+      },
+      "our_financial_project": {
         "description": "O sistema oferece uma solução robusta e intuitiva para o gerenciamento de finanças, abrangendo desde o controle básico até funcionalidades avançadas. A seguir, estão as principais características:",
         "movement_management": "<strong>Gestão de Entradas e Saídas:</strong> Permite o registro e acompanhamento de receitas e despesas, com as saídas financeiras sendo categorizadas como simples ou realizadas por cartão de crédito, cujas despesas são automaticamente organizadas na fatura atual.",
         "goals_definition": "<strong>Definição de Metas Financeiras:</strong> É possível criar metas financeiras com prazos personalizados, que podem abranger desde objetivos pontuais, como a compra de um item, até planos de longo prazo, como a aposentadoria.",
@@ -16,40 +38,17 @@
         "multiple_currencies": "<strong>Suporte a Múltiplas Moedas:</strong> Registro e controle de transações disponíveis em BRL (Real), CAD (Dólar Canadense) e USD (Dólar Americano).",
         "personal_integration": "<strong>Integração de Contas Pessoais e de Investimentos:</strong> Oferece uma visão consolidada de todas as contas, sejam pessoais ou de investimentos."
       },
-      "tools_section": {
-        "general_description": "O sistema foi projetado e construído com uma arquitetura moderna e modular, dividida entre frontend e backend como serviços independentes. Essa separação possibilita maior flexibilidade no desenvolvimento, escalabilidade e manutenção da aplicação. A escolha de tecnologias robustas e populares garante alta performance, segurança e uma experiência de usuário consistente.",
-        "frontend": "Frontend: Interface de Usuário (UI)",
-        "frontend_description": "O frontend foi desenvolvido utilizando Next.js e Tailwind CSS, oferecendo uma interface responsiva, eficiente e estilizada.",
-        "nextjs": "Next.js",
-        "nextjs_text1": "<strong>Servidor e Cliente:</strong> Combina renderização estática e dinâmica para otimizar a performance, com suporte integrado para SEO, o que é essencial em aplicações modernas.",
-        "nextjs_text2": "<strong>Rotas Dinâmicas:</strong> Utilizadas para lidar com áreas da aplicação que demandam alta personalização, como páginas de relatórios ou gestão de contas.",
-        "nextjs_text3": "<strong>API Routes:</strong> Empregadas para interações rápidas com o backend e simplificação de integrações.",
-        "tailwindcss": "Tailwind CSS",
-        "tailwindcss_text1": "<strong>Design Consistente:</strong> Adota uma abordagem baseada em utilitários para estilização, garantindo consistência visual e facilidade de manutenção.",
-        "tailwindcss_text2": "<strong>Customização Fácil:</strong> Permite criar temas e componentes reutilizáveis, que seguem o padrão visual do sistema.",
-        "backend": "Backend: Lógica de Negócio",
-        "backend_description": "O backend foi construído com Ruby on Rails, uma estrutura conhecida por sua produtividade e suporte para desenvolvimento ágil.",
-        "ruby_on_rails": "Ruby on Rails",
-        "ruby_on_rails_text1": "<strong>Estrutura Modular:</strong> O backend é organizado em módulos que refletem as entidades financeiras do sistema, como usuários, transações, contas e relatórios.",
-        "ruby_on_rails_text2": "<strong>APIs RESTful:</strong> Fornecem comunicação clara e padronizada com o frontend.",
-        "postgres": "Banco de Dados (PostgreSQL):",
-        "postgres_text1": "<strong>Unificação de Dados:</strong> Toda a aplicação utiliza uma única base de dados, centralizando as informações e facilitando a gestão e a consistência dos dados.",
-        "postgres_text2": "<strong>Otimizações:</strong> Índices e consultas otimizadas para lidar com grandes volumes de transações financeiras.",
-        "backend_frontend": "Integração entre Frontend e Backend",
-        "backend_frontend_description": "Embora sejam serviços distintos, o frontend e o backend se comunicam de maneira eficiente:",
-        "backend_frontend_text1": "<strong>REST APIs:</strong> O backend expõe endpoints que o frontend consome para buscar ou enviar dados.",
-        "backend_frontend_text2": "<strong>Autenticação:</strong> Implementada via tokens JWT, garantindo segurança nas requisições entre os serviços.",
-        "backend_frontend_text3": "<strong>Gerenciamento de Estado:</strong> O frontend armazena estados temporários das interações do usuário, enquanto o backend é responsável pela persistência.",
-        "design_system": "Benefícios do Design System",
-        "design_system_text1": "<strong>Modularidade:</strong> Separar frontend e backend permite que equipes distintas trabalhem em paralelo, acelerando o desenvolvimento.",
-        "design_system_text2": "<strong>Escalabilidade:</strong> Serviços independentes podem ser otimizados ou escalados de maneira específica, reduzindo custos e maximizando a eficiência.",
-        "design_system_text3": "<strong>Manutenção Facilitada:</strong> Cada serviço possui sua própria base de código, simplificando a adição de novas funcionalidades ou correções.",
-        "design_system_text4": "<strong>Experiência de Usuário Coesa:</strong> O uso de Tailwind CSS e componentes reutilizáveis no frontend mantém a consistência visual e melhora a interação do usuário."
-      }
-    },
-    "about_me": {
-      "about_me_page": {
-        "description": "Apaixonado por tecnologia, computadores e programação. Uma de minhas melhores habilidades é minha rápida habituação com qualquer ambiente de trabalho e linguagem, pois pra mim programar é criar, aceitar desafios e resolvê-los. Atuando há cerca de 6 anos com desenvolvimento de sistemas, envolvendo aplicações web, desktop e também jogos.  Tenho facilidades para aprender novas tecnologias, e também costumo sempre me manter atualizado sobre todo o contexto profissional ao meu redor."
+      "about_me": {
+        "title": "Configurações",
+        "description": "Sobre",
+        "skills": "Habilidades",
+        "contact": "Contato",
+        "name": "Nome",
+        "position": "Desenvolvedor de Software",
+        "about_text": "Altamente qualificado com mais de 6 anos de experiência na área. Experiente em trabalhar com equipes de pequeno e médio porte, contribuindo para a implementação de novas soluções que garantam alta escalabilidade e manutenção das aplicações desenvolvidas. Focado na entrega rápida e contínua, alcançando excelentes resultados treinando desenvolvedores menos experientes para entregar código de alta qualidade.",
+        "languages": "Linguagens",
+        "databases": "Bancos de Dados",
+        "messaging": "Filas e mensagerias"
       }
     }
   },
@@ -63,7 +62,9 @@
     "access_demo": "Acessar demonstração"
   },
   "general": {
-    "years": "{n} anos"
+    "years": "{n} anos",
+    "portuguese": "Português",
+    "english": "Inglês"
   },
   "layout": {
     "appbar": {

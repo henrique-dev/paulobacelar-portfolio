@@ -1,14 +1,19 @@
 import { useTranslations } from 'next-intl';
+import { GithubLink, LinkedinLink } from '../ui/links';
 
 export const Footer = () => {
   const t = useTranslations('layout.footer');
 
   return (
-    <footer>
-      <div className="px-6 py-6 flex justify-center lg:px-8">
+    <footer className="absolute bottom-0 py-4 space-y-4">
+      <div className="flex justify-center px-6 lg:px-8">
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-xs leading-5 text-gray-500 dark:text-gray-400">&copy; {t('all_rights_reserved')}</p>
+          <p className="text-center text-base leading-5 text-green-400">&copy; {t('all_rights_reserved')}</p>
         </div>
+      </div>
+      <div className="flex items-center justify-center gap-x-6">
+        <GithubLink />
+        <LinkedinLink />
       </div>
     </footer>
   );
