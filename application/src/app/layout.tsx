@@ -11,7 +11,7 @@ import { CustomDocument } from './CustomDocument';
 const roboto = Roboto_Mono({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
+  title: 'Paulo Bacelar - Portfolio',
   description: 'Paulo Bacelar portfolio',
 };
 
