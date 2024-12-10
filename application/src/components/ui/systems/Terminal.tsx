@@ -53,7 +53,7 @@ export const Terminal = ({ children, className, ...rest }: TerminalProps) => {
           </div>
         </div>
         <div className="flex h-full items-center text-white">
-          <div className="flex h-full w-10 items-center justify-center hover:bg-zinc-500">
+          <div className="flex h-full w-10 items-center justify-center text-zinc-500">
             <MinusIcon className="h-5 w-5" />
           </div>
           {!fullScreen && (

@@ -96,7 +96,7 @@ export const WordWindow = ({ children, onCloseWindow }: WordWindowProps) => {
       <div className="flex min-h-[38px]">
         <div className="flex w-full flex-1 space-x-1 px-4 pt-1.5 text-white"></div>
         <div className="flex h-full items-center text-white">
-          <div className="flex h-full w-10 items-center justify-center hover:bg-zinc-500">
+          <div className="flex h-full w-10 items-center justify-center hover:bg-zinc-500" onClick={onCloseWindow}>
             <MinusIcon className="h-5 w-5" />
           </div>
           {!fullScreen && (

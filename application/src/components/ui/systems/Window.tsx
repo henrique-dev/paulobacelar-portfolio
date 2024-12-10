@@ -75,7 +75,7 @@ export const Window = ({ windowTitle, children, onCloseWindow }: WindowProps) =>
       <div className="flex min-h-[38px]">
         <div className="pointer-events-none flex flex-1 items-center px-4 text-white">{windowTitle}</div>
         <div className="flex h-full items-center text-white">
-          <div className="flex h-full w-10 items-center justify-center hover:bg-zinc-500">
+          <div className="flex h-full w-10 items-center justify-center hover:bg-zinc-500" onClick={onCloseWindow}>
             <MinusIcon className="h-5 w-5" />
           </div>
           {!fullScreen && (
