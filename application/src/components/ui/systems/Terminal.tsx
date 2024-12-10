@@ -1,6 +1,7 @@
 import { useLanguage } from '@/hooks/use-language';
 import { MinusIcon, XMarkIcon } from '@heroicons/react/20/solid';
 import { Square2StackIcon, StopIcon } from '@heroicons/react/24/outline';
+import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import { useState } from 'react';
 import { twJoin, twMerge } from 'tailwind-merge';
@@ -9,8 +10,9 @@ import { useTranslations } from 'use-intl';
 type TerminalProps = React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>;
 
 export const Terminal = ({ children, className, ...rest }: TerminalProps) => {
+  const locale = useLocale();
   const [fullScreen, setFullScreen] = useState(false);
-  const { currentLanguage, onChangeLanguageHandler } = useLanguage();
+  const { onChangeLanguageHandler } = useLanguage();
   const t = useTranslations();
 
   return (
@@ -29,7 +31,7 @@ export const Terminal = ({ children, className, ...rest }: TerminalProps) => {
             onClick={onChangeLanguageHandler.bind(null, 'pt-BR')}
             className={twJoin(
               'flex items-center space-x-2 rounded-t-lg px-2 py-1.5 md:w-48',
-              currentLanguage === 'pt-BR' ? 'bg-black' : 'hover:bg-zinc-800'
+              locale === 'pt-BR' ? 'bg-black' : 'hover:bg-zinc-800'
             )}
           >
             <div className="relative h-5 w-5">
@@ -41,7 +43,7 @@ export const Terminal = ({ children, className, ...rest }: TerminalProps) => {
             onClick={onChangeLanguageHandler.bind(null, 'en')}
             className={twJoin(
               'flex items-center space-x-2 rounded-t-lg px-2 py-1.5 md:w-48',
-              currentLanguage === 'en' ? 'bg-black' : 'hover:bg-zinc-800'
+              locale === 'en' ? 'bg-black' : 'hover:bg-zinc-800'
             )}
           >
             <div className="relative h-5 w-5">

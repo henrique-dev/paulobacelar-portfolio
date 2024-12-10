@@ -2,26 +2,26 @@
   "pages": {
     "main": {
       "projects_window": {
-        "title": "Visualizador de projetos",
+        "title": "Visualizador de Projetos",
         "all": "Todos"
       },
       "main_terminal": {
-        "all_rights_reserved": "Paulo Bacelar. Todos os direitos reservados",
-        "host_machine": "visitante@portolio",
-        "see_projects": "Ver projetos",
-        "see_about": "Ver sobre"
+        "all_rights_reserved": "Paulo Bacelar. Todos os direitos reservados.",
+        "host_machine": "visitante@portfolio",
+        "see_projects": "Ver Projetos",
+        "see_about": "Ver Sobre"
       },
       "use_commands": {
         "commands": {
-          "hello_visitor": "> Olá visitante",
-          "welcome": "> Bem vindo ao meu portfolio",
+          "hello_visitor": "> Olá, visitante",
+          "welcome": "> Bem-vindo ao meu portfólio",
           "what_do_you_want_to_do": "> O que você deseja fazer? (Utilize o mouse para selecionar)",
 
           "projects_message_1": "> Buscando projetos existentes...",
           "projects_message_2": "> Verificando atualizações...",
           "projects_message_3": "> Baixando projetos adicionais...",
           "projects_message_4": "> Criando uma conexão segura...",
-          "projects_message_5": "> Iniciando explorador de projetos...",
+          "projects_message_5": "> Iniciando o explorador de projetos...",
 
           "see_about_message_1": "> Verificando fonte dos dados...",
           "see_about_message_2": "> Validando dados restantes...",
@@ -34,7 +34,7 @@
         "movement_management": "<strong>Gestão de Entradas e Saídas:</strong> Permite o registro e acompanhamento de receitas e despesas, com as saídas financeiras sendo categorizadas como simples ou realizadas por cartão de crédito, cujas despesas são automaticamente organizadas na fatura atual.",
         "goals_definition": "<strong>Definição de Metas Financeiras:</strong> É possível criar metas financeiras com prazos personalizados, que podem abranger desde objetivos pontuais, como a compra de um item, até planos de longo prazo, como a aposentadoria.",
         "movement_between_accounts": "<strong>Movimentação Entre Contas:</strong> Recursos podem ser transferidos entre contas próprias de forma prática e segura.",
-        "shared_management": "<strong>Gestão Individual ou Compartilhada:</strong> O sistema suporta tanto o gerenciamento individual quanto por múltiplos usuários, sendo ideal para casais ou grupos que compartilham o controle financeiro.",
+        "shared_management": "<strong>Gestão Individual ou Compartilhada:</strong> O sistema suporta tanto o gerenciamento individual quanto o realizado por múltiplos usuários, sendo ideal para casais ou grupos que compartilham o controle financeiro.",
         "multiple_currencies": "<strong>Suporte a Múltiplas Moedas:</strong> Registro e controle de transações disponíveis em BRL (Real), CAD (Dólar Canadense) e USD (Dólar Americano).",
         "personal_integration": "<strong>Integração de Contas Pessoais e de Investimentos:</strong> Oferece uma visão consolidada de todas as contas, sejam pessoais ou de investimentos."
       },
@@ -45,17 +45,17 @@
         "contact": "Contato",
         "name": "Nome",
         "position": "Desenvolvedor de Software",
-        "about_text": "Altamente qualificado com mais de 6 anos de experiência na área. Experiente em trabalhar com equipes de pequeno e médio porte, contribuindo para a implementação de novas soluções que garantam alta escalabilidade e manutenção das aplicações desenvolvidas. Focado na entrega rápida e contínua, alcançando excelentes resultados treinando desenvolvedores menos experientes para entregar código de alta qualidade.",
+        "about_text": "Altamente qualificado, com mais de 6 anos de experiência na área. Experiente em trabalhar com equipes de pequeno e médio porte, contribuindo para a implementação de novas soluções que garantam alta escalabilidade e manutenção das aplicações desenvolvidas. Focado na entrega rápida e contínua, alcançando excelentes resultados ao treinar desenvolvedores menos experientes para entregar código de alta qualidade.",
         "languages": "Linguagens",
         "databases": "Bancos de Dados",
-        "messaging": "Filas e mensagerias"
+        "messaging": "Filas e Mensagerias"
       }
     }
   },
   "projects": {
     "our_financial": {
       "title": "Nosso Financeiro",
-      "description": "Gerencie suas finanças pessoais e compartilhadas com controle de contas, metas financeiras e múltiplas moedas, tudo em um só lugar"
+      "description": "Gerencie suas finanças pessoais e compartilhadas com controle de contas, metas financeiras e múltiplas moedas, tudo em um só lugar."
     }
   },
   "actions": {
@@ -69,10 +69,10 @@
   "layout": {
     "appbar": {
       "projects": "Projetos",
-      "about_me": "Sobre mim"
+      "about_me": "Sobre Mim"
     },
     "footer": {
-      "all_rights_reserved": "Criado por Paulo Bacelar"
+      "all_rights_reserved": "Criado por Paulo Bacelar."
     }
   }
 }
